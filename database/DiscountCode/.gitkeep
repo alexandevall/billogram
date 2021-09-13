@@ -1,0 +1,14 @@
+# exclude the data in the database
+database/Discount/*
+database/DiscountCode/*
+
+# ...but keep the folders
+!database/Discount/.gitkeep
+!database/DiscountCode/.gitkeep
+
+# pychache
+__pycache__/
+*.py[cod]
+
+# do not include venv
+venv/*
