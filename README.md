@@ -17,7 +17,7 @@ To run the project:
 2) If you do not have virtualenv installed, install it: pip install virtualenv.
 3) Go to the project root.
 4) Create a new virtualenv: python3 -m venv env.
-5) Activate the virtual environment: source venv/bin/activate.
+5) Activate the virtual environment: source env/bin/activate.
 6) Install dependencies: pip install -r requirements.txt
 7) Run the project: python3 main.py.
 
