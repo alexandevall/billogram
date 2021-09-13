@@ -6,7 +6,7 @@ I have modeled the problem as follows:
 * A user can get a DiscountCode from a Discount. I am imagining that a user finds a discount that he/she wants to get a discount-code for, and asks this service to generate and/or retrieve the code.
 
 One key design choice I have made is to not generate all discount-codes the moment a brand asks to have X discount-codes generated. Instead, these are generated on an ongoing basis whenever a user asks for a discount-code. The reasons for this are twofold:
-* We can customize the discount-code with the user's username (or even name, perhaps) in mind. Instead of the code being a string of meaningless characters, we can make it part of a brand's customer experience. I have for instance made discount-codes look like this: "<brand_name>-thinks-<username>-is-awesome-<id for discount>", which looks way nicer than a random id.
+* We can customize the discount-code with the user's username (or even name, perhaps) in mind. Instead of the code being a string of meaningless characters, we can make it part of a brand's customer experience. I have for instance made discount-codes look like this: "[brand_name]-thinks-[username]-is-awesome-[id for discount]", which looks way nicer than a random id.
 * We make sure that every code generated is associated with a user.
   
 An important assumption I have made is that authorization can be done by tokens passed in request headers. I have also assumed that authorizations is
