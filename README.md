@@ -13,7 +13,7 @@ An important assumption I have made is that authorization can be done by tokens 
 different for "brands" and "users".
 
 To run the project:
-1) Make sure python3 and pip3 installed: python3 --version and pip3 --version.
+1) Make sure python3 and pip3 is installed: python3 --version and pip3 --version.
 2) If you do not have virtualenv installed, install it: pip install virtualenv.
 3) Create a new virtualenv: virtualenv venv
 4) Activate the virtual environment: source venv/bin/activate
