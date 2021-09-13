@@ -1,0 +1,15 @@
+# exclude database content
+database/Discount/*
+database/DiscountCode/*
+
+# ...but keep the directories
+!database/Discount/.gitkeep
+!database/DiscountCode/.gitkeep
+
+# remove pycache
+__pycache__/
+*.py[cod]
+
+# venv/env
+env/*
+venv/*
