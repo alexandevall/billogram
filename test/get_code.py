@@ -17,5 +17,5 @@ def get_code(user_auth_token, discount_id):
     except:
         print("could not get json in response")
 
-get_code("u2", "<id of discount - use a filename in database/Discount/>")
+get_code("u2", "f3599dca-252b-44d4-a4d2-efca31b725a2")
 print("gotten_code")

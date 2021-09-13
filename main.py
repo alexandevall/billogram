@@ -38,7 +38,6 @@ def test():
 def create_codes():
     brand = require_brand(request, 'create-discount-codes')
     discount_model = DiscountModel.from_json(request.data)
-    print("discount_model", discount_model.webhook_url)
     discount_model.brand_id = brand['id']
     created_discount = DiscountModel.save(discount_model)
     return created_discount.__dict__

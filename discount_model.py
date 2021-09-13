@@ -16,7 +16,6 @@ class DiscountModel:
     @staticmethod
     def from_json(json_str):
         d = json.loads(json_str)
-        print("d", d)
         model = DiscountModel()
         model.id = d.get('id') or model.id
         model.brand_id = d.get('brand_id') or model.brand_id
