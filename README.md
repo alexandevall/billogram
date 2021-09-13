@@ -15,9 +15,14 @@ different for "brands" and "users".
 To run the project:
 1) Make sure python3 and pip3 is installed: python3 --version and pip3 --version.
 2) If you do not have virtualenv installed, install it: pip install virtualenv.
-3) Create a new virtualenv: virtualenv venv
-4) Activate the virtual environment: source venv/bin/activate
-5) Install dependencies: pip install -r requirements.txt
-6) Run the project: python3 main.py
+3) Go to the project root.
+4) Create a new virtualenv: virtualenv venv.
+5) Activate the virtual environment: source venv/bin/activate.
+6) Install dependencies: pip install -r requirements.txt
+7) Run the project: python3 main.py.
 
+It is also possible to test creating and getting codes:
+To test creating codes: python3 test/create_codes.py  
+To test getting a code: python3 test/get_code.py. 
+Note! This get codes you need to enter a valid discount-id as the last parameter in the get_code function in test/get_code.py. A valid discount-id is any filename found in database/Discount. If there are no files in database/Discount, start by creating codes.
 
