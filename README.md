@@ -24,5 +24,5 @@ To run the project:
 It is also possible to test creating and getting codes:
 To test creating codes: python3 test/create_codes.py  
 To test getting a code: python3 test/get_code.py. 
-Note! This get codes you need to enter a valid discount-id as the last parameter in the get_code function in test/get_code.py. A valid discount-id is any filename found in database/Discount. If there are no files in database/Discount, start by creating codes.
+Note! You need to enter a valid discount-id as the last parameter in the get_code function in test/get_code.py. A valid discount-id is any filename found in database/Discount. If there are no files in database/Discount, start by creating codes.
 
